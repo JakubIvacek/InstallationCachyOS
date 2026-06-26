@@ -16,8 +16,9 @@ A step-by-step guide for installing CachyOS (Arch-based, performance-optimized) 
 | 7 | AMD graphics control (CoreCtrl, MangoHud, GameMode, OBS) |
 | 8 | RGB keyboard (OpenRGB) |
 | 9 | Bonus tweaks (GameMode, fstrim, kernel params) |
-| 10 | Dev tools (git, SSH key for GitHub, paru AUR helper, VS Code) |
-| 11 | Fix: Code - OSS / VS Code freezes on sign-in (Electron bug workaround) |
+| 10 | KDE — global theme & widgets (themes, Latte Dock, panel widgets) |
+| 11 | Dev tools (git, SSH key for GitHub, paru AUR helper, VS Code) |
+| 12 | Fix: Code - OSS / VS Code freezes on sign-in (Electron bug workaround) |
 
 ## Reference hardware
 

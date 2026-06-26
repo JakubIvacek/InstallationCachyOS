@@ -180,7 +180,43 @@ sudo pacman -S gamemode lib32-gamemode mangohud
 
 ---
 
-## 10. Dev tools (git, GitHub, editor, AUR)
+## 10. KDE — global theme & widgets
+
+### Global theme
+
+**System Settings → Appearance → Global Theme**
+
+- CachyOS ships with a clean default theme, but you can switch to anything from the KDE Store directly in-app.
+- Click **Get New Global Themes…** (bottom right) → browse → **Install** → **Apply**.
+- Popular choices: **Breeze Dark** (built-in), **Layan**, **WhiteSur**, **Catppuccin**.
+
+> Global theme changes the window decoration, colors, icons, and cursor in one shot. You can also swap each component separately: **Colors**, **Icons**, **Cursors**, **Window Decorations** — all in the same Appearance section.
+
+### Widgets
+
+Right-click the desktop → **Add Widgets** (or the panel → right-click → Add Widgets).
+
+Useful widgets to add:
+
+| Widget | What it does |
+|---|---|
+| **System Monitor** | CPU / GPU / RAM usage on the desktop or panel |
+| **Latte Dock** (AUR) | macOS-style animated dock (replaces the bottom panel) |
+| **Event Calendar** | Clock + Google/local calendar pop-up |
+| **Window Title** | Shows active window name in the panel |
+| **Netspeed Widget** | Live upload/download speed in the panel |
+| **Memory Usage** | RAM bar in the panel |
+
+To get community widgets: **Add Widgets → Get New Widgets → Download New Plasma Widgets** → search → Install. They land in the widget picker immediately, no reboot needed.
+
+```bash
+# Latte Dock (if you want the dock from AUR)
+paru -S latte-dock
+```
+
+---
+
+## 11. Dev tools (git, GitHub, editor, AUR)
 
 **git** (and base build tools for compiling AUR packages):
 ```bash
@@ -220,7 +256,7 @@ For a machine where you'll actually use the Claude Code extension, the official 
 
 ---
 
-## 11. FIX: Code - OSS / VS Code freezes on git clone / sign-in
+## 12. FIX: Code - OSS / VS Code freezes on git clone / sign-in
 
 **Symptom:** the whole Code - OSS freezes ("Not Responding") on a private git clone or while signing in (e.g. Claude Code sign-in). A public clone with no auth works fine, the network is fine.
 

@@ -214,6 +214,23 @@ To get community widgets: **Add Widgets → Get New Widgets → Download New Pla
 paru -S latte-dock
 ```
 
+### Virtual desktops (multiple screens/workspaces)
+
+KDE supports multiple virtual desktops — separate workspaces you can switch between (e.g. one for gaming, one for dev, one for browser).
+
+**Set them up:** System Settings → Workspace → Virtual Desktops → **Add** as many as you want, name them, set rows.
+
+**Switch between them:**
+- `Ctrl+F1` / `Ctrl+F2` / … — keyboard shortcut per desktop
+- `Ctrl+Arrow` — slide left/right through desktops
+- Touchpad 4-finger swipe (if configured)
+
+**Pager widget** — shows all your virtual desktops as small boxes in the panel, click to jump:
+
+Right-click panel → **Add Widgets** → search **Pager** → drag to panel.
+
+> Windows are per-desktop by default. You can right-click any window's title bar → **More Actions → Move to Desktop** to send it to a specific one, or **On All Desktops** to pin it everywhere (useful for Discord, music player, etc.).
+
 ---
 
 ## 11. Dev tools (git, GitHub, editor, AUR)
